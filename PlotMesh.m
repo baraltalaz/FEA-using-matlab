@@ -6,7 +6,7 @@ nnel = size(nodes,2);                % number of nodes per element
 % 
 % Initialization of the required matrices
 nel=Xnodes;
-nnel=Ynodes;
+nnode=Ynodes;
 X = zeros(nnel,nel) ;
 Y = zeros(nnel,nel) ;
 for iel=1:nel   
